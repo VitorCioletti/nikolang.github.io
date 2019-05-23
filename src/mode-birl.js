@@ -63,17 +63,17 @@ var birlHighlightRules = function() {
     );
 
     var keywordOperators = (
-        "FRANGO|MONSTRINHO|MONSTRO|MONSTRAO|TRAPEZIO|TRAPEZIO DESCENDENTE|BICEPS"
+        "BOBO|TRISTEZA|BOSTA|MERDA|DESGRAÇA|MUITO DESGRAÇA|TCHURURU"
     );
 
     var builtinConstants = (
         "NULL|true|false|TRUE|FALSE|nullptr"
     );
     
-    var bambamRegex = "(?:\\s*|)(?:AJUDA O MALUCO TA DOENTE|BIRL|HORA DO SHOW|BORA CUMPADE|ELE QUE A GENTE QUER\\?|"+
-    "NAO VAI DAR NAO|OH O HOME AI PO|NEGATIVA BAMBAM|MAIS QUERO MAIS|QUE NAO VAI DAR O QUE\\?|SAI FILHO DA PUTA|VAMO MONSTRO)";
+    var bambamRegex = "(?:\\s*|)(?:SOU JESUS|PORRA|DEIXA EU TRABALHAR|BORA TRABALHAR|ELE QUE A GENTE QUER\\?|"+
+    "CE TA USANDO UMA DROGA?|OH OS VÉI PELADO|REUNIÃO DE NOVO|MAIS UMA REUNIÃO|QUE NAO VAI DAR O QUE\\?|NINGUÉM QUER ISSO|MAIS UMA REUNIÃO)";
     
-    var printsBambam = "\\s*(?:CE QUER VER ESSA PORRA\\?|QUE QUE CE QUER MONSTRAO\\?)";
+    var printsBambam = "\\s*(?:OLHA ESSA MERDA\\?|QUE QUE CE QUER MERDA\\?)";
 
     var keywordMapper = this.$keywords = this.createKeywordMapper({
         "keyword.control" : keywordControls,
