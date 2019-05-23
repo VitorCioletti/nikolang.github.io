@@ -51,7 +51,7 @@ app.controller("birlCtrl", function($scope, $window, birlService) {
 app.service("birlService", function($http, $q) {
     this.runBirl = function(code, stdin){
         var deferred = $q.defer();
-        $http.post("https://birl.herokuapp.com/compile", {code: code, stdin: stdin }).then(function(response){
+        $http.post("https://chatline.eastus2.cloudapp.azure.com/nikolang/compile", {code: code, stdin: stdin }).then(function(response){
             data = response.data;
             if(data.error) {
                 deferred.reject("compile-error");
