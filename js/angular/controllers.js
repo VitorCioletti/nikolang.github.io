@@ -12,7 +12,7 @@ app.controller("birlCtrl", function($scope, $window, birlService) {
     $scope.btText = "Bora!";
     $scope.stdin = "";
     $scope.stdout = "";
-    $scope.code = "HORA DO SHOW\n    CE QUER VER ESSA PORRA? (\"Hello, World! Porra!\\n\");\n    BORA CUMPADE 0;\nBIRL";
+    $scope.code = "DEIXA EU TRABALHAR\n    OLHA ESSA MERDA (\"Hello, World! Porra!\\n\");\n    BORA TRABALHAR 0;\nPORRA";
     $scope.temErro = false;
 
     $scope.sendBirl = function(){
